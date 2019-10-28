@@ -1,0 +1,24 @@
+*{margin: 0px; padding: 0px; outline: none; box-sizing: border-box; font-weight: normal;}
+
+.box{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-img{
+    width: 350px;
+    height: 550px;
+    border: solid 3px #fff;
+    box-shadow: 10px 10px 25px #555;
+    background-image: url("layout.jpg");
+    background-size: cover;
+    background-position: top;
+    transition: all linear .4s;
+}
+
+.box-img:hover{
+    background-position: bottom;
+}
